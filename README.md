@@ -4,7 +4,6 @@ Tae runs continuously and must jump or duck to avoid obstacles, which include ca
 The game ends when Tae hits an obstacle.
 
 ### Controls
-
 | **Action**    | **Keys**          | **Touch/Click** |
 |---------------|-------------------|-----------------|
 | Jump          | Space, Up, W      | Left Area       |
