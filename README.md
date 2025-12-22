@@ -5,6 +5,12 @@ The game ends when Tae hits an obstacle.
 
 ### Controls
 
+| Action        | Keys             |
+|---------------|----------------|
+| Jump          | Space, Up, W  |
+| Duck          | Down, S         |
+| Restart       | Enter           |
+| Switch Theme  | Left, Right, A, D |
 
 
 ### Credits
