@@ -15,10 +15,10 @@ The game ends when Tae hits an obstacle.
 - "Left Area" or "Right Area" refers to half of the screen.
 - Restart and Switch Theme work only when idle or on the 404 GEITAE screen.
 
-### Gameplay
-![](assets/gameplay_1.gif)
-![](assets/gameplay_2.gif)
-
 ### Credits
 - Taenosaur Game is based on or modified from: [Extracted Dinosaur Game](https://github.com/wayou/t-rex-runner) by wayou
 - Which was originally derived from: [Original Dinosaur Game](https://source.chromium.org/chromium/chromium/src/+/main:components/neterror/resources/) by Chromium
+
+### Gameplay
+- ![](assets/gameplay_1.gif)
+- ![](assets/gameplay_2.gif)
