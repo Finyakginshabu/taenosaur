@@ -20,5 +20,9 @@ The game ends when Tae hits an obstacle.
 - Which was originally derived from: [Original Dinosaur Game](https://source.chromium.org/chromium/chromium/src/+/main:components/neterror/resources/) by Chromium
 
 ### Gameplay
-- ![](assets/gameplay_1.gif)
-- ![](assets/gameplay_2.gif)
+
+- **On PC:**  
+<img src="assets/gameplay_1.gif" alt="Taenosaur Game on PC" width="600">
+
+- **On Mobile:**  
+<img src="assets/gameplay_2.gif" alt="Taenosaur Game on Mobile" width="300">
