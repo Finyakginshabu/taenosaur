@@ -5,15 +5,15 @@ The game ends when Tae hits an obstacle.
 
 ### Controls
 
-| **Action**    | **Keys**          |
-|---------------|-------------------|
-| Jump          | Space, Up, W      |
-| Duck          | Down, S           |
-| Restart       | Enter             |
-| Switch Theme  | Left, Right, A, D |
-
+| **Action**    | **Keys**          | **Touch/Click** |
+|---------------|-------------------|-----------------|
+| Jump          | Space, Up, W      | Left Area       |
+| Duck          | Down, S           | Right Area      |
+| Restart       | Enter             | Left Area       |
+| Switch Theme  | Left, Right, A, D | Right Area      |
+**Note**: For Touch/Click, "Left Area" or "Right Area" refers to half of the screen. Restart and Switch Theme work only when idle or on the 404 GEITAE screen.
 
 ### Credits
-Taenosaur Game is based on or modified from: [Extracted Dinosaur Game](https://github.com/wayou/t-rex-runner) by wayou
+- Taenosaur Game is based on or modified from: [Extracted Dinosaur Game](https://github.com/wayou/t-rex-runner) by wayou
 
-Which was originally derived from: [Original Dinosaur Game](https://source.chromium.org/chromium/chromium/src/+/main:components/neterror/resources/) by Chromium
+- Which was originally derived from: [Original Dinosaur Game](https://source.chromium.org/chromium/chromium/src/+/main:components/neterror/resources/) by Chromium
