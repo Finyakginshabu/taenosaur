@@ -16,7 +16,8 @@ The game ends when Tae hits an obstacle.
 - Restart and Switch Theme work only when idle or on the 404 GEITAE screen.
 
 ### Gameplay
-![Taenosaur Game in action](assets/gameplay_1.gif)
+![](assets/gameplay_1.gif)
+![](assets/gameplay_2.gif)
 
 ### Credits
 - Taenosaur Game is based on or modified from: [Extracted Dinosaur Game](https://github.com/wayou/t-rex-runner) by wayou
