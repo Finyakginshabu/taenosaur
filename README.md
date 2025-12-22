@@ -17,7 +17,6 @@ The game ends when Tae hits an obstacle.
 
 ### Gameplay
 ![Taenosaur Game in action](assets/gameplay_1.gif)
-![Taenosaur Game in action](assets/gameplay_2.gif)
 
 ### Credits
 - Taenosaur Game is based on or modified from: [Extracted Dinosaur Game](https://github.com/wayou/t-rex-runner) by wayou
