@@ -1,13 +1,13 @@
-## Taenosaur Game
+# Taenosaur Game
 Taenosaur Game is a game similar to the Google Chrome Dinosaur Game. The player character, Tae, spawns on the right and runs backward. 
 Tae runs continuously and must jump or duck to avoid obstacles, which include cacti of different sizes and Pterodactyls. The longer Tae runs, the higher the score. 
 The game ends when Tae hits an obstacle.
 
-### Controls
+## Controls
 
 
 
-### Credits
+## Credits
 
 Taenosaur Game is based on or modified from: [Extracted Dinosaur Game](https://github.com/wayou/t-rex-runner) by wayou
 
