@@ -21,7 +21,7 @@ The game ends when Tae hits an obstacle.
 
 ### Gameplay
 
-- **On PC:**  
+- **On Mac:**  
 <img src="assets/gameplay_1.gif" alt="Taenosaur Game on PC" width="600">
 
 - **On Mobile:**  
