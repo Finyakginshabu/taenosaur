@@ -11,6 +11,7 @@ The game ends when Tae hits an obstacle.
 | Duck          | Down, S           | Right Area      |
 | Restart       | Enter             | Left Area       |
 | Switch Theme  | Left, Right, A, D | Right Area      |
+
 **Note**: For Touch/Click, "Left Area" or "Right Area" refers to half of the screen. Restart and Switch Theme work only when idle or on the 404 GEITAE screen.
 
 ### Credits
