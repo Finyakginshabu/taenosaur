@@ -22,4 +22,4 @@ The game ends when Tae hits an obstacle.
 ### Gameplay
 
 - On PC (also supports mobile)
-<video src="assets/gameplay.mp4" width="600" autoplay loop muted playsinline></video>
+<img src="assets/gameplay.gif" alt="Taenosaur Game on PC" width="600">
