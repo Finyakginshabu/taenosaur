@@ -21,5 +21,5 @@ The game ends when Tae hits an obstacle.
 
 ### Gameplay
 
-- On PC (also supports mobile)
+- [**PLAY NOW**](https://finyakginshabu.github.io/taenosaur)
 <img src="assets/gameplay.gif" alt="Taenosaur Game on PC" width="600">
