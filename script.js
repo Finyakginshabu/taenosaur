@@ -250,8 +250,12 @@
             if(windowHeight / windowWidth<=1){
                 var scaledGameHeight = this.dimensions.HEIGHT * scale;
                 var translateY = (windowHeight - scaledGameHeight) / 2;
+                this.groundEl.style.height = '40vh';
+                this.introCoverEl.style.width = 480*scale + 'px';
             }else{
                 var translateY = 0;
+                this.groundEl.style.height = 80 + 'px';
+                this.introCoverEl.style.width = '80%';
             }
 
             if(windowWidth / windowHeight>3){
@@ -262,9 +266,14 @@
             }else{
                 var translateX = 0;
             }
-
             this.containerEl.style.transform = 'translate(' + translateX + 'px, ' + translateY + 'px) scale(' + scale + ')';
             this.containerEl.style.width = this.dimensions.WIDTH + 'px';
+
+            this.groundEl.style.top = translateY + ((this.dimensions.HEIGHT - 12) * scale) + 'px';
+            this.groundEl.style.transform = 'translateX(' + (translateX) + 'px) scaleY(' + scale + ')';
+            this.groundEl.style.width = this.dimensions.WIDTH*scale + 'px';
+
+            this.introCoverEl.style.transform = 'translateX(' + (translateX) + 'px) scaleY(' + scale + ')';
         },
 
         /**
@@ -397,6 +406,7 @@
 
             this.containerEl = document.createElement('div');
             this.containerEl.className = Runner.classes.CONTAINER;
+            this.containerEl.style.zIndex = '1';
 
             // Player canvas container.
             this.canvas = createCanvas(this.containerEl, this.dimensions.WIDTH,
@@ -423,23 +433,19 @@
 
             this.introCoverEl = document.createElement('div');
             this.introCoverEl.style.position = 'absolute';
+            this.introCoverEl.style.top = '0px';
             this.introCoverEl.style.height = '100%';
-            this.introCoverEl.style.width = '83%';
             this.introCoverEl.className = 'background';
-            this.introCoverEl.style.zIndex = '5';
-
-            this.containerEl.appendChild(this.introCoverEl);
+            this.introCoverEl.style.zIndex = '2';
+            this.outerContainerEl.appendChild(this.introCoverEl);
 
             this.groundEl = document.createElement('div');
             this.groundEl.style.position = 'absolute';
-            this.groundEl.style.bottom = '0';  
-            this.groundEl.style.height = '8%';
-            this.groundEl.style.width = '100%';
+            this.groundEl.style.transformOrigin = 'top center';
             this.groundEl.style.backgroundColor = '#edd7b2';
             this.groundEl.className = 'ground';
-            this.groundEl.style.zIndex = '1';
-
-            this.containerEl.appendChild(this.groundEl);
+            this.groundEl.style.zIndex = '0';
+            this.outerContainerEl.appendChild(this.groundEl);
 
             this.setContainerScale();
 
@@ -728,7 +734,7 @@
 
             if(isPointer){
                 const x = this.getInputX(e);
-                const leftSide = x < window.innerWidth / 2;
+                const leftSide = this.crashed ? x < window.innerWidth * 8/15 : x < window.innerWidth/2; //Lazy button cover genius technique by Fin
                 if(leftSide){
                     if(!this.playing){
                         this.loadSounds();
