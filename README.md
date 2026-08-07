@@ -3,6 +3,8 @@
 Tae runs continuously and must jump or duck to avoid obstacles, which include cacti of different sizes and Pterodactyls. The longer Tae runs, the higher the score. 
 The game ends when Tae hits an obstacle.
 
+I developed this based on my CPE222 Digital Electronics and Logic Design final project, which was originally written in Verilog for the Basys 3 FPGA.
+
 ### Controls
 | **Action**    | **Keys**          | **Touch/Click** |
 |---------------|-------------------|-----------------|
